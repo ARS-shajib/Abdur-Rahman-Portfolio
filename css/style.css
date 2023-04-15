@@ -1,0 +1,71 @@
+#name {
+    font-family: 'Sedgwick Ave Display', cursive;
+    padding-left: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#name:hover {
+    text-shadow: 2px 2px 8px white;
+}
+
+.front-page {
+    background-color: #707070;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 8px white;
+}
+
+.id-name:hover {
+    text-shadow: 2px 2px 10px white;
+    text-decoration: underline;
+}
+
+.title {
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.sub-title {
+    font-family: 'Audiowide', cursive;
+}
+
+.link-button {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    background-image: linear-gradient(gray, blue);
+}
+
+.link-button:hover {
+    text-shadow: 2px 2px 8px white;
+}
+
+.logo {
+    font-weight: 900;
+}
+
+header {
+    font-family: 'Audiowide', cursive;
+    border-bottom: 1px solid white;
+}
+
+.rocket {
+    text-decoration: none;
+}
+
+@media (min-width: 1000px) {
+    .top-banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .top-banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
