@@ -41,6 +41,13 @@
     text-shadow: 2px 2px 8px white;
 }
 
+hr {
+    border: dotted grey 6px;
+    border-bottom: none;
+    width: 8%;
+    margin: 90px auto 90px auto;
+}
+
 .logo {
     font-weight: 900;
 }
@@ -50,20 +57,33 @@ header {
     border-bottom: 1px solid white;
 }
 
+.oj {
+    background-color: gray;
+}
+
+.oj:hover {
+    text-shadow: 2px 2px 8px white;
+}
+
 .rocket {
     text-decoration: none;
 }
 
 @media (min-width: 1000px) {
-    .top-banner {
+    .about-section {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
+    .half-width {
+        width: 50%;
+        margin: 5%;
+    }
 }
 
 @media (max-width: 1000px) {
-    .top-banner {
+    .about-section {
         display: flex;
         flex-direction: column;
         justify-content: center;
